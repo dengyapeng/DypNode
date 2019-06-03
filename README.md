@@ -10,5 +10,4 @@
 ### 将本地仓库关联到Github上
 + git remote add origin url_of_your_newrepository
 + git push -u origin master//上传代码到远程仓库
-
-——————
+___
