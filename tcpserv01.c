@@ -15,8 +15,8 @@ again:
 }
 int main(int argc,char **argv)
 {
-	int listenfd,connfd;
-	pid_t childpid;
+	int listenfd,connfd;// 创建一个监听文件描述符，一个已连接文件描述符
+	pid_t childpid;//设置一个pid变量
 	socklen_t clilen;
 	struct sockaddr_in cliaddr,servaddr;
 
