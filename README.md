@@ -21,3 +21,8 @@ ___
 [第四章 基本TCP套接字编程](Node/c4.md)
 
 [第六章 I/O复用 select和poll函数](Node/c6.md)
+
+
+___
+## Linux 常用命令
+    .tar文件的解压 tar -zcvf etc.tar /root/myApp  将当前目录的etc.tar文件解压到/root/myApp路径下
