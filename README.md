@@ -26,3 +26,8 @@ ___
 ___
 ## Linux 常用命令
     .tar文件的解压 tar -zcvf etc.tar /root/myApp  将当前目录的etc.tar文件解压到/root/myApp路径下
+
+
+___ 
+## 操作系统笔记
+[第四章 进程及进程管理]()
