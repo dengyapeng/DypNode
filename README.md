@@ -21,6 +21,13 @@ git remote remove origin
 
 ### 添加远程库
 git remote add  origin url_of_your_newrepository
+
+### 将远程库更新同步到本地仓库
+1.把远程库更新到本地 *git fetch origin master*
+
+2.比较远程更新和本地版本库的差异 *git log master.. origin/master*
+
+3.合并远程库 *git merge origin/master*
 ___
 ## UNP 笔记
 
