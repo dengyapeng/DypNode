@@ -1,4 +1,4 @@
-# echoserver
+# 学习笔记
 ## 将本地git仓库同步至Github远程仓库
 ### 创建本地git仓库
 + mkdir test
