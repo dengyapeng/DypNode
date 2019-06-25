@@ -30,7 +30,7 @@ git remote add  origin url_of_your_newrepository
 3.合并远程库 *git merge origin/master*
 
 ### 本地库删除文件后同步到远程库(同样移除文件)
-1.预览将要删除的文件 *git rm -r -n --cached 文件/文件夹名称 *
+1.预览将要删除的文件 *git rm -r -n --cached 文件/文件夹名称*
 
 2.确定无误后删除文件 *git rm -r --cached 文件/文件夹名称*
 
