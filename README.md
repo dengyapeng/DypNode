@@ -12,7 +12,15 @@
 
 + git push -u origin master  上传代码到远程仓库
 
-  
+git clone会自动绑定远程库
+### 查看远程库
+git remote -v
+
+### 删除远程库
+git remote remove origin
+
+### 添加远程库
+git remote add  origin url_of_your_newrepository
 ___
 ## UNP 笔记
 
