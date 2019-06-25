@@ -34,4 +34,6 @@ ___
 
 [第五章 资源分配与调度](Node/systemC5.md)
 
+[第六章 主存管理](Node/systemC6.md)
+
 [第七章 设备管理](Node/systemC7.md)
