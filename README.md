@@ -68,3 +68,5 @@ ___
 [第六章 主存管理](Node/systemC6.md)
 
 [第七章 设备管理](Node/systemC7.md)
+
+[第八章 文件系统](Node/systemC8.md)
