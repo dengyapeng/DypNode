@@ -35,6 +35,16 @@ git remote add  origin url_of_your_newrepository
 2.确定无误后删除文件 *git rm -r --cached 文件/文件夹名称*
 
 3.提交到本地并推送到远程服务器 *git commit -m "提交说明";git push origin master*
+
+### 远程仓库(GIthub)修改之后，应先将本地仓库更新
+否则会报如下错误
+ ! [rejected]        master -> master (fetch first)
+1.先pull远程仓库 *git pull origin*
+
+2.然后和本地仓库合并 *git merge origin master*
+
+3.最后可以将本地仓库更新内容提交给Github  *git push -u origin master* 
+
 ___
 ## UNP 笔记
 
@@ -44,13 +54,11 @@ ___
 
 [第六章 I/O复用 select和poll函数](Node/c6.md)
 
-
 ___
 ## Linux 常用命令
     .tar文件的解压 tar -zcvf etc.tar /root/myApp  将当前目录的etc.tar文件解压到/root/myApp路径下
 
-
-___ 
+___
 ## 操作系统笔记
 [第四章 进程及进程管理](Node/systemC4.md)
 
