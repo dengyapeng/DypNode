@@ -39,6 +39,7 @@ git remote add  origin url_of_your_newrepository
 ### 远程仓库(GIthub)修改之后，应先将本地仓库更新
 否则会报如下错误
  ! [rejected]        master -> master (fetch first)
+
 1.先pull远程仓库 *git pull origin*
 
 2.然后和本地仓库合并 *git merge origin master*
