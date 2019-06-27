@@ -70,3 +70,5 @@ ___
 [第七章 设备管理](Node/systemC7.md)
 
 [第八章 文件系统](Node/systemC8.md)
+
+[问答题梳理](Node/问答题梳理.md)
