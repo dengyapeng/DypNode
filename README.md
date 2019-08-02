@@ -45,7 +45,7 @@ Run
   git config --global user.name "Your Name"
 
 to set your account's default identity.
-它提示你应先设置用户邮箱和用户名 设置一个全局的一步到位
+它提示你应先设置用户邮箱和用户名 设置一个全局的邮箱和用户名一步到位，以后不用再添加
 ```c
     dyp@dyp:~/Myzip$ git config --global user.email "1369020579@qq.com"
     dyp@dyp:~/Myzip$ git config --global user.user.name "dyp"
