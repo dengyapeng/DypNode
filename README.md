@@ -36,6 +36,20 @@ git remote add  origin url_of_your_newrepository
 
 3.提交到本地并推送到远程服务器 *git commit -m "提交说明";git push origin master*
 
+git commit 后可能会报如下错误
+> *** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+它提示你应先设置用户邮箱和用户名 设置一个全局的一步到位
+```c
+    dyp@dyp:~/Myzip$ git config --global user.email "1369020579@qq.com"
+    dyp@dyp:~/Myzip$ git config --global user.user.name "dyp"
+```
 ### 远程仓库(GIthub)修改之后，应先将本地仓库更新
 否则会报如下错误
  ! [rejected]        master -> master (fetch first)
