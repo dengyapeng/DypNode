@@ -60,6 +60,12 @@ to set your account's default identity.
 
 3.最后可以将本地仓库更新内容提交给Github  *git push -u origin master* 
 
+
+### github readme添加图片
+  首先找到repo中图片，点击图片可获得路径，如：
+    https://github.com/dengyapeng/Huffmanzip/blob/master/Image/decompress.png
+    需将blob改为raw。。。
+    以Markdown语法如：![](https://github.com/dengyapeng/Huffmanzip/raw/master/Image/decompress.png)添加
 ___
 ## UNP 笔记
 
