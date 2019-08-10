@@ -65,7 +65,8 @@ to set your account's default identity.
   首先找到repo中图片，点击图片可获得路径，如：
     https://github.com/dengyapeng/Huffmanzip/blob/master/Image/decompress1.png
     需将blob改为raw。。。
-    以Markdown语法如：![](https://github.com/dengyapeng/Huffmanzip/raw/master/Image/decompress1.png)方式添加
+    以Markdown语法如：
+    > ![](https://github.com/dengyapeng/Huffmanzip/raw/master/Image/decompress1.png)方式添加
 ___
 ## UNP 笔记
 
